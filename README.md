@@ -7,6 +7,7 @@
 
 # Gambar Class Diagram
 
+![alt text](https://github.com/Fajar22isworo/TheNextCar)
 
 
 
