@@ -1,0 +1,30 @@
+﻿<Window x:Class="TheNextCar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TheNextCar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="485">
+    <Grid>
+        <Button x:Name="startButton" Content="STOPED" HorizontalAlignment="Left" Margin="59,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.354,3.791" Click="OnAccuButtonClicked"/>
+        <Button x:Name="DoorOpenButton" Content="CLOSE" HorizontalAlignment="Left" Margin="168,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.192,0.744" Click="OnDoorOpenButtonClicked"/>
+        <Button x:Name="LockDoorButton" Content="LOCK" HorizontalAlignment="Left" Margin="296,319,0,0" VerticalAlignment="Top" Click="OnLockDoorButtonClicked"/>
+        <Button x:Name="AccuButton" Content="OFF" HorizontalAlignment="Left" Margin="392,319,0,0" VerticalAlignment="Top" Click="OnAccuButtonClicked"/>
+        <Label x:Name="status" Content="no power available" HorizontalAlignment="Left" Margin="27,369,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.031,0.083"/>
+        <Label x:Name="DoorOpenState" Content="Close" HorizontalAlignment="Left" Margin="167,369,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.555,1.073"/>
+        <Label Name="LockDoorState" Content="door is unlocked" HorizontalAlignment="Left" Margin="269,369,0,0" VerticalAlignment="Top"/>
+        <Label Name="AccuState" Content="no power" HorizontalAlignment="Left" Margin="374,369,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="308" Margin="8,7,0,0" VerticalAlignment="Top" Width="461" RenderTransformOrigin="0.428,0.579" Source="/Assets/navigation.jpg">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.241"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+    </Grid>
+</Window>
