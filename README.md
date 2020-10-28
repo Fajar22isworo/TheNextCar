@@ -6,8 +6,8 @@
 
 
 # Gambar Class Diagram
+![Screenshot (243)](https://user-images.githubusercontent.com/61859353/97452891-cad1b900-1967-11eb-91f3-5d46c322ca95.png)
 
-![alt text](https://github.com/Fajar22isworo/TheNextCar)
 
 
 
